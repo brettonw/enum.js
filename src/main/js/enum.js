@@ -25,7 +25,7 @@ let Enum = {
         Object.defineProperty (_, "names", { value: names });
         Object.defineProperty (_, "values", { value: enumeratedValues });
 
-		// the toString property so that we can implicitly treat this thing as a string
+        // the toString property so that we can implicitly treat this thing as a string
         Object.defineProperty (_, "toString", { value: function () { return this.name; } });
 
         return _;
