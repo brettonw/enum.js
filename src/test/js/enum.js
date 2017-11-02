@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------------
 let testEnum = function () {
     console.log ("testEnum");
-    let e = Enum.create (["A", "B", "C"]);
+    let e = Enum.create ("A", "B", "C");
     Test.assertTrue("A.name", e.A.name == "A");
     Test.assertTrue("A.value", e.A.value == 0);
 

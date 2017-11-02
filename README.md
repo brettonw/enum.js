@@ -2,7 +2,7 @@
 A simple implementation of a Java-like enum in javascript.
 
 ## Example Usages
-    let myEnum = Enum.create (["A", "B", "C"]);
+    let myEnum = Enum.create ("A", "B", "C");
     let anObject = {};
     anObject[myEnum.A] = myEnum.A.value;
     
